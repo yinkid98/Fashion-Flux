@@ -1,0 +1,18 @@
+.menproduct h1{
+  text-align: center;
+  color: #000;
+  font-size: 65px;
+  text-transform: capitalize;
+  line-height: 1.1;
+  font-weight: 600;
+  margin: 6px 0 10px;
+  background-color: beige;
+}
+/* section img{
+  width: 20%;
+} */
+.products{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+  gap: 2rem;
+}
